@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head') %>
+    <title>Add New Blog</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #536475, #206bbb);
+            color: #fff; /* Ensures text is visible on the dark background */
+        }
+    </style>
+</head>
+<body>
+    <%- include('./partials/nav') %>
+
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">ADD NEW BLOG</h2>
+        <div class="card shadow-sm p-4">
+            <form action="/blog" method="post" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="coverImage" class="form-label">COVER IMAGE</label>
+                    <input type="file" class="form-control" name="coverImage" id="coverImage" aria-describedby="coverImage" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="title" class="form-label">TITLE</label>
+                    <input type="text" class="form-control" name="title" id="title" aria-describedby="title" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="body" class="form-label">BLOG BODY</label>
+                    <textarea name="body" class="form-control" id="body" rows="5" required></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn btn-primary w-100" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <%- include('./partials/scripts') %>
+</body>
+</html>
