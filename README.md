@@ -18,8 +18,6 @@ A full-stack blog platform built using **Node.js**, **Express.js**, **MongoDB**,
 
 ## 🖼️ Screenshots & Demo
 
-> 📂 Screenshots are located in the `ScreenShots/` folder. Add these files to your GitHub repository to enable previews.
-
 ### 🔑 Signup Page  
 ![Signup Page](./ScreenShots/signup.png)
 
