@@ -30,7 +30,7 @@ A full-stack blog platform built using **Node.js**, **Express.js**, **MongoDB**,
 ![Home Page](./ScreenShots/home.png)
 
 ### ➕ Add Blog Page  
-![Add Blog](./ScreenShots/add blog.png)
+![Add Blog](./ScreenShots/add%20blog.png)
 
 ### 📄 Blog View Page  
 ![Blog Page](./ScreenShots/blog.png)
@@ -39,7 +39,7 @@ A full-stack blog platform built using **Node.js**, **Express.js**, **MongoDB**,
 ![Comment](./ScreenShots/comment.png)
 
 ### ✏️ Edit Blog Page  
-![Edit Blog](./ScreenShots/edt blog.png)
+![Edit Blog](./ScreenShots/edt%20blog.png)
 
 ### 📽️ Blog & Comment Interaction (Video)  
 🎬 [Click to watch demo](./ScreenShots/blog nd comment.mp4)
