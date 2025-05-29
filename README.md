@@ -41,9 +41,6 @@ A full-stack blog platform built using **Node.js**, **Express.js**, **MongoDB**,
 ### ✏️ Edit Blog Page  
 ![Edit Blog](./ScreenShots/edt%20blog.png)
 
-### 📽️ Blog & Comment Interaction (Video)  
-🎬 [Click to watch demo](./ScreenShots/blog nd comment.mp4)
-
 ---
 
 ## 🛠️ Tech Stack
