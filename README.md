@@ -86,22 +86,22 @@ BLOG-APP/
    cd blog-app
 
 2. Install Dependencies
-   npm install
+   -npm install
 
 3. Setup Environment Variables
-   Create a .env file in the root directory and add:
-      MONGODB_URI=your_mongodb_connection_string
-      SESSION_SECRET=your_secret_key
+   -Create a .env file in the root directory and add:
+      -MONGODB_URI=your_mongodb_connection_string
+      -SESSION_SECRET=your_secret_key
 
 4. Create Upload Folder
-   Manually create the following folder:
-      public/uploads/
+   -Manually create the following folder:
+      -public/uploads/
 
 5. Run the App
-   npm start
+   -npm start
 
 6. Open your browser and go to:
-   http://localhost:8000
+   -http://localhost:8000
 
 🙋‍♂️ Author
 Aditya Arya
